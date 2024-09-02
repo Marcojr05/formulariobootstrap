@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Formulário Bootstrap</title>
+</head>
+<body>
+    <!-- <form class="form-floating">
+        <label for="floatingInputValue">Pergunta 1</label>
+        <input type="email" class="form-control" id="floatingInputValue"  >
+    </form> -->
+
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Pergunta 1</label>
+    </div>
+
+    <div>
+        <form class="form-floating">
+        <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com">
+        <label for="floatingInputInvalid">Pergunta 2</label>
+    </div>
+        
+        <div class="form-floating mb-3">
+            <label for="floatingEmptyPlaintextInput">Pergunta 3</label>
+            <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+            
+          </div>
+          <div class="form-floating mb-3">
+            <label for="floatingPlaintextInput">Pergunta 3</label>
+            <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="name@example.com">
+          </div>
+      </form>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Pergunta 4</label>
+      </div>
+
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+          <option selected>Opção 1</option>
+          <option value="1">Opção 2</option>
+          <option value="2">Opção 3</option>
+          <option value="3">Opção 4</option>
+        </select>
+        <label for="floatingSelect">Escolher</label>
+      </div>
+
+      <label class="form-check-label" for="flexRadioDefault1">
+        Pergunta 6
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Sim
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Não
+        </label>
+      </div>
+
+      <label class="form-check-label" for="flexCheckDefault">
+        Pergunta 7
+      </label>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Item 1
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            Item 2
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            Item 3
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            Item 4
+        </label>
+      </div>
+      <div>
+      <label for="customRange1" class="form-label">Pergunta 8</label>
+<input type="range" class="form-range" id="customRange1">
+
+    <div>
+    <label for="pergunta">Pergunta 9</label>
+    <input type="date" id="pergunta" name="pergunta">
+    </div>
+    
+    <div>
+    <label for="appt">Pergunta 10</label>
+    <input type="time" id="appt" name="appt">
+    </div>
+
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Pergunta 11</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+</body>
+</html>
